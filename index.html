@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bodyGrid gridHome">
   <header class="headerHome">
@@ -25,7 +28,7 @@
   </header>
   <section class="sectionHome sectionGrid">
     <div class="divHome">
-      <h2> Peluquería canina </h2>
+      <h2 class="animate__animated animate__flipInX"> Peluquería canina </h2>
       <h5>-slogan-</h5>
       <p class="parrafoHome">Conocé nuestros servicios y contactate con nosotros para recibir una atención personalizada.</p>
     </div>
@@ -38,5 +41,9 @@
       <li class="instagramLink"><a href="https://www.instagram.com" target="_blank">Seguinos en Instagram!</a></li>
     </ul>
   </footer>
+  <script src="js/wow.min.js"></script>
+  <script>
+     new WOW().init();
+  </script>  
 </body>
 </html>

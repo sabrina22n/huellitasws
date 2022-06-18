@@ -85,7 +85,14 @@ header {
 
 .imagenHome {
     border: 2px dashed #b8c0ff;
+    transform: rotate(8deg);
+    transition: all 1s;
     
+}
+
+.imagenHome:hover {
+    border: 4px dashed #b8c0ff;
+    transform: rotate(-8deg);
 }
 
 .brand {
@@ -217,6 +224,13 @@ footer {
 .imgSobremi {
     border: 2px dashed #b8c0ff;
     grid-area: imgsm;
+    transform: rotate(7deg);
+    transition: all 1s;
+}
+
+.imgSobremi:hover {
+    border: 4px dashed #b8c0ff;
+    transform: rotate(-7deg);
 }
 
 .parrafoSobremi {
@@ -236,14 +250,21 @@ footer {
     flex-direction: column;
 }
 
+.blog {
+    text-align: center;
+    padding: 30px;
+}
+
 .titulosBlog {
     margin: 15px;
     text-decoration: underline;
+    text-align: center;
 }
 
 .entradaBlog {
-    background-color: #F9E8FF;
+    background-image: linear-gradient(#e7c6ff, #e7c6ff, #b8c0ff);
     padding: 20px;
+    margin-top: 15px;
 }
 
 .sectionContacto {
