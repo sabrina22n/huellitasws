@@ -7,8 +7,8 @@
     box-sizing: border-box;
 }
 
-.bodyGrid {
-    display: grid;
+/* .bodyGrid {
+    /* display: grid;
     grid-template-areas: 
     "header  header"
     "sectiongrid sectiongrid"
@@ -18,9 +18,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60px auto 60px;
     
-}
+} */
 
-.gridHome {
+.bodyHome {
     background-image: url('../images/backgroundimage.jpeg');
     background-size: 160px, contain;
 }
@@ -38,11 +38,11 @@ header {
     right: 0px;
     font-family: 'Montserrat', sans-serif;
     color: #4a4a4a;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    grid-area: header;
+    grid-area: header; */
 }
 
 .menu {
@@ -76,7 +76,7 @@ header {
 }
 
 .sectionHome {
-    grid-area: sectiongrid;
+    /* grid-area: sectiongrid; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,7 +104,7 @@ footer {
     padding: 20px;
     background-color: #b8c0ff;
     text-align: right;
-    grid-area: footer;
+    /* grid-area: footer; */
 }
 
 .linkFooter {
@@ -125,7 +125,7 @@ footer {
     background-color: #FBF6FF;
     font-family: 'Montserrat', sans-serif;
     color: #4a4a4a;
-    grid-area: sectiongrid;
+    /* grid-area: sectiongrid; */
     display: grid;
     grid-template-areas: 
       "titulo titulo titulo titulo"
@@ -205,7 +205,7 @@ footer {
     padding: 40px;
     font-family: 'Montserrat', sans-serif;
     color: #4a4a4a;
-    grid-area: sectiongrid;
+    /* grid-area: sectiongrid; */
     display: grid;
     grid-template-areas: 
      "titulosm titulosm"
@@ -245,7 +245,7 @@ footer {
     padding: 20px;
     margin: 40px;
     color: #4a4a4a;
-    grid-area: sectiongrid;
+    /* grid-area: sectiongrid; */
     display: flex;
     flex-direction: column;
 }
@@ -277,7 +277,7 @@ footer {
     height: 400px;
     display: flex;
     justify-content: center;
-    grid-area: sectiongrid;
+    /* grid-area: sectiongrid; */
 }
 
 label, input {
