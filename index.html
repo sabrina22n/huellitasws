@@ -11,7 +11,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body class="bodyHome">  
+<body class="bodyHome bodyGrid">  
   <header class="container-fluid headerHome">
     <div class="row">
     <div class="col-md-1 col-xs-1 logo">
@@ -29,17 +29,19 @@
     </nav>
     </div>
   </header>
-  <section class="container-fluid sectionHome sectionGrid">
-    <div class="divHome">
+  <section class="container-fluid align-items-center sectionHome sectionGrid">
+    <div class="row">
+    <div class="col divHome">
       <h2 class="animate__animated animate__flipInX"> Peluquería canina </h2>
       <h5>-slogan-</h5>
       <p class="parrafoHome">Conocé nuestros servicios y contactate con nosotros para recibir una atención personalizada.</p>
     </div>
-    <div class="imagenHome">
-        <img src="./images/inicio.jpeg" alt="perro en bañera" title="Bath time" height="300px" width="300px" />
+    <div class="col">
+        <img class="imagenHome" src="./images/inicio.jpeg" alt="perro en bañera" title="Bath time" height="300px" width="300px" />
+    </div>
     </div>
   </section>
-  <footer class="footerHome">
+  <footer class="fixed-bottom footerHome">
     <ul class="linkFooter">
       <li class="instagramLink"><a href="https://www.instagram.com" target="_blank">Seguinos en Instagram!</a></li>
     </ul>
