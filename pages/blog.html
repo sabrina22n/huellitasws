@@ -9,22 +9,27 @@
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body class="bodyGrid">
-  <header class="container-fluid headerHome">
-    <div class="row">
-      <div class="col-md-1 col-xs-1 logo">
-      <img src="../images/logoprovisorio.png" alt="logo lila" title="logo huellitas" height="50px" width="50px"/>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+         <div> 
+           <img src="../images/logoprovisorio.png" alt="logo lila" title="logo huellitas" height="50px" width="50px"/>
+         </div>
+        <h5 class="brand mt-2 mb-2">Huellitas en mi corazón</h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="../index.html" >Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="./servicios.html" >Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="./sobre-mi.html" >Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./blog.html" >Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html" >Contacto</a></li>
+         </ul>
+        </div>
       </div>
-      <h5 class="col-md-6 brand">Huellitas en mi corazón</h5>
-      <nav class="col-md-5 col-xs-11">
-      <ul class="menu">
-        <li class="menu__item"><a href="../index.html">Inicio</a></li>
-        <li class="menu__item"><a href="./servicios.html">Servicios</a></li>
-        <li class="menu__item"><a href="./sobre-mi.html">Sobre mí</a></li>
-        <li class="menu__item"><a href="./blog.html">Blog</a></li>
-        <li class="menu__item"><a href="./contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-    </div>
+   </nav>
   </header>
   <section class="sectionBlog sectionGrid">
      <h2 class="blog">Blog</h2>
