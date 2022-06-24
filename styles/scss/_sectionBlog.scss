@@ -1,0 +1,30 @@
+.sectionBlog {
+    background-color: $colorBackg;
+    font-family: $primaryFont;
+    padding: 20px;
+    color: $colorLetra;
+
+    .blog {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .entradaBlog {
+        background-image: linear-gradient(#e7c6ff, #e7c6ff, #b8c0ff);
+        padding: 20px;
+        margin-top: 15px;
+
+        .titulosBlog {
+            margin: 15px;
+            text-decoration: underline;
+            text-align: center;
+        }
+        
+    }
+
+}
+
+
+
+
+

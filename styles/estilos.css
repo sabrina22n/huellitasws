@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #FBF6FF;
+}
+
+.navbar {
+  background-color: #f9e8ff;
+  font-family: "Montserrat", sans-serif;
+  color: #4a4a4a;
+}
+
+.navbar .nav-item > a {
+  color: #6C6968;
+}
+
+.navbar .brand {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 18px;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bodyHome {
+  background-image: url("../images/backgroundimage.jpeg");
+  background-size: 160px, contain;
+}
+
+.bodyHome .sectionHome {
+  min-height: 65vh;
+}
+
+.bodyHome .sectionHome .divHome {
+  padding: 15px;
+  color: #4a4a4a;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bodyHome .sectionHome .divHome .peluqueria {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.bodyHome .sectionHome .divHome .parrafoHome {
+  font-size: 18px;
+}
+
+.bodyHome .sectionHome .imagenHome {
+  border: 2px dashed #b8c0ff;
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.bodyHome .sectionHome .imagenHome:hover {
+  border: 4px dashed #b8c0ff;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+
+footer {
+  padding: 8px;
+  background-color: #b8c0ff;
+  text-align: right;
+}
+
+footer .linkFooter {
+  list-style: none;
+  color: #4a4a4a;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+footer .linkFooter .instagramLink > a {
+  color: #6C6968;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.servicios {
+  background-color: #FBF6FF;
+  font-family: 'Montserrat', sans-serif;
+  color: #4a4a4a;
+  margin-bottom: 50px;
+}
+
+.servicios .mainServicios {
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  background-color: #FBF6FF;
+  color: #4a4a4a;
+}
+
+.servicios .servicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servicios .servicio .servicio__img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.servicios .servicio .servicio__titulo {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sectionSobremi {
+  background-color: #D6DAFF;
+  padding: 60px;
+  font-family: "Montserrat", sans-serif;
+  color: #4a4a4a;
+}
+
+.sectionSobremi .tituloSobremi {
+  text-align: center;
+}
+
+.sectionSobremi .holaSobremi {
+  font-family: "Homemade Apple", cursive;
+}
+
+.sectionSobremi .imgSobremi {
+  border: 2px dashed #b8c0ff;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.sectionSobremi .imgSobremi:hover {
+  border: 4px dashed #b8c0ff;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
+}
+
+.sectionBlog {
+  background-color: #FBF6FF;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  color: #4a4a4a;
+}
+
+.sectionBlog .blog {
+  text-align: center;
+  padding: 30px;
+}
+
+.sectionBlog .entradaBlog {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7c6ff), color-stop(#e7c6ff), to(#b8c0ff));
+  background-image: linear-gradient(#e7c6ff, #e7c6ff, #b8c0ff);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.sectionBlog .entradaBlog .titulosBlog {
+  margin: 15px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.sectionContacto {
+  padding: 30px;
+  margin: 50px;
+  color: #4a4a4a;
+  font-family: "Montserrat", sans-serif;
+  border: 3px dotted #b8c0ff;
+}
+
+.sectionContacto .boton {
+  padding: 7px;
+  background-color: #b8c0ff;
+}
+
+@media screen and (max-width: 768px) {
+  .brand {
+    display: none;
+  }
+  .imgSobremi {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .sectionContacto {
+    padding: 7px;
+    margin: 5px;
+  }
+  footer {
+    text-align: center;
+    margin: 0px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

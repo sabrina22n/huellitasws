@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/estilos.css">
 </head>
 <body class="bodyGrid">
   <header>
@@ -20,7 +20,7 @@
          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end pe-3">
           <li class="nav-item"><a class="nav-link" href="../index.html" >Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="./servicios.html" >Servicios</a></li>
           <li class="nav-item"><a class="nav-link" href="./sobre-mi.html" >Sobre mí</a></li>
@@ -31,9 +31,10 @@
       </div>
    </nav>
   </header>
-  <section class="sectionBlog sectionGrid">
-     <h2 class="blog">Blog</h2>
-     <div class="entradaBlog">
+  <section class="container sectionBlog sectionGrid">
+    <h2 class="blog">Blog</h2>
+    <div class="row">
+     <div class="col-md-12 entradaBlog">
       <h3 class="titulosBlog">Primera entrada del blog</h3>
         <article>
             <p>
@@ -49,7 +50,9 @@
             </p>
         </article>
       </div>
-      <div class="entradaBlog">
+    </div>
+    <div class="row">
+      <div class="col-md-12 entradaBlog">
        <h3 class="titulosBlog">Segunda entrada del blog</h3>
         <article> 
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, mollitia. Facilis, cumque,
@@ -60,6 +63,7 @@
                 amet consectetur adipisicing, elit. </p>
         </article>
       </div>
+    </div>
   </section>
   <footer>
     <ul class="linkFooter">

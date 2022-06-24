@@ -1,0 +1,45 @@
+.bodyHome {
+    background-image: url('../images/backgroundimage.jpeg');
+    background-size: 160px, contain;
+
+    .sectionHome {
+        min-height: 65vh;
+
+        .divHome {  
+            padding: 15px;
+            color: $colorLetra;
+            font-size: 24px;
+            font-family: $primaryFont;
+
+            .peluqueria {
+                font-family: 'Montserrat Alternates', sans-serif;
+            }
+
+            .parrafoHome {
+                font-size: 18px;
+            } 
+
+        }
+
+        .imagenHome {
+            border: 2px dashed $colorSecundario;
+            transform: rotate(8deg);
+            transition: all 1s;
+            
+            &:hover {
+                border: 4px dashed $colorSecundario;
+                transform: rotate(-8deg);
+            }
+
+        }
+
+    }
+    
+}
+
+
+
+
+
+
+

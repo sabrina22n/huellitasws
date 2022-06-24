@@ -1,0 +1,26 @@
+footer {
+    padding: 8px;
+    background-color: #b8c0ff;
+    text-align: right;
+
+    .linkFooter {
+        list-style: none;
+        color: $colorLetra;
+        font-size: 18px;
+        font-family: $primaryFont;
+        text-decoration: none;
+        margin-right: 15px;
+
+        .instagramLink > a {
+            color: #6C6968;
+            text-decoration: none;
+            font-family: $primaryFont;
+        }
+
+    }
+
+}
+
+
+
+

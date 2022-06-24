@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/estilos.css">
 </head>
 <body class="bodyGrid">
   <header>
@@ -20,7 +20,7 @@
          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end pe-3">
           <li class="nav-item"><a class="nav-link" href="../index.html" >Inicio</a></li>
           <li class="nav-item"><a class="nav-link active" href="./servicios.html" >Servicios</a></li>
           <li class="nav-item"><a class="nav-link" href="./sobre-mi.html" >Sobre mí</a></li>
@@ -31,48 +31,56 @@
       </div>
    </nav>
   </header>
-   <section class="sectionGrid servicios">
+   <section class="container sectionGrid servicios">
     <h2 class="mainServicios"> Servicios </h2>
-     <div class="servicio s1">
-       <img class="servicio__img" src="../images/servicios1.jpeg" alt="perro en bañera" title="Servicios"/>
-       <h4 class="servicio__titulo">Peluquería canina</h4>
-       <p>Descripción del servicio</p>
+    <div class="row">
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios1.jpeg" alt="perro en bañera" title="Servicios"/>
+         <h4 class="servicio__titulo">Peluquería canina</h4>
+         <p>Cuidado de higiene y estética con el objetivo de preservar la salud de la mascota.</p>
+       </div>
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios2.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Baño antipulgas</h4>
+         <p>Si tu perro ya está infestado, la vía más rápida y eficiente es recurrir a champús antiparasitarios, que tienen un efecto inmediato.</p>
+       </div>
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios3.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Baño de belleza</h4>
+         <p>Es la importancia de un buen aclarado. Un manto sucio o mal aclarado impide que el acabado sea brillante y luminoso, al igual que puede 
+           provocar problemas de salud en la mascota como dermatitis, lesiones por rascado…etc.</p>
+       </div>
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios4.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Limpieza de oídos</h4>
+         <p>La limpieza rutinaria de las orejas dificulta la proliferación de las bacterias y levaduras que se encuentran de forma natural en los oídos. 
+           Por tanto, esto ayuda a prevenir enfermedades como otitis por ejemplo.</p>
+       </div>
+     <div class="row">
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios1.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Corte de uñas</h4>
+         <p>Por salud y bienestar físico, es importante revisar y mantener las uñas de nuestros peludos . 
+           Si dejamos que crezcan, pueden romperse y provocar heridas o infecciones.</p>
+       </div>
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios2.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Servicio puerta a puerta</h4>
+         <p>Un cómodo servicio para quienes no pueden asistir al lugar con las mascotas.</p>
+       </div>
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios3.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Corte de todas las razas</h4>
+         <p>No todas las razas tienen el mismo pelaje o contexturas corporales, por ende, cada una tiene unos cortes 
+           específicos que podrían o no favorecerles para su salud o estéticamente hablando.</p>
+       </div>
+       <div class="col-md-3 servicio">
+         <img class="servicio__img" src="../images/servicios4.jpeg" alt="perro en bañera" title="servicios"/>
+         <h4 class="servicio__titulo">Corte higiénico </h4>
+         <p> Este tipo de corte tiene como objetivo eliminar el vello en las zonas intimas del animal, 
+           en donde generalmente se acumulan residuos de orina o de heces.</p>
+       </div>
      </div>
-     <div class="servicio s2">
-      <img class="servicio__img" src="../images/servicios2.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Baño antipulgas</h4>
-      <p>Descripción del servicio</p>
-    </div>
-    <div class="servicio s3">
-      <img class="servicio__img" src="../images/servicios3.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Baño de belleza</h4>
-      <p>Descripción del servicio</p>
-    </div>
-    <div class="servicio s4">
-      <img class="servicio__img" src="../images/servicios4.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Limpieza de oídos</h4>
-      <p>Descripción del servicio</p>
-    </div>
-    <div class="servicio s5">
-      <img class="servicio__img" src="../images/servicios1.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Corte de uñas</h4>
-      <p>Descripción del servicio</p>
-    </div>
-    <div class="servicio s6">
-      <img class="servicio__img" src="../images/servicios2.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Servicio puerta a puerta</h4>
-      <p>Descripción del servicio</p>
-    </div>
-    <div class="servicio s7">
-      <img class="servicio__img" src="../images/servicios3.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Corte de todas las razas</h4>
-      <p>Descripción del servicio</p>
-    </div>
-    <div class="servicio s8">
-      <img class="servicio__img" src="../images/servicios4.jpeg" alt="perro en bañera" title="servicios"/>
-      <h4 class="servicio__titulo">Corte higiénico </h4>
-        <p>Descripción del servicio</p>
-    </div>
    </section>
   <footer>
     <ul class="linkFooter">

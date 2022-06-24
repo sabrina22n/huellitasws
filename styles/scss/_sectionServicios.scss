@@ -1,0 +1,41 @@
+.servicios {
+    background-color: $colorBackg;
+    font-family: 'Montserrat', sans-serif;
+    color: $colorLetra;
+    margin-bottom: 50px;
+
+    .mainServicios {
+        text-align: center;
+        padding: 20px;
+        font-family: $primaryFont;
+        font-size: 30px;
+        background-color: $colorBackg;
+        color: $colorLetra;
+    }
+
+    .servicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .servicio__img {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 20px;
+        }
+        
+        .servicio__titulo {
+            margin-bottom: 6px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+    }
+
+}
+
+
+
+
+
+

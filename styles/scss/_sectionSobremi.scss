@@ -1,0 +1,32 @@
+.sectionSobremi {
+    background-color: #D6DAFF;
+    padding: 60px;
+    font-family: $primaryFont;
+    color: $colorLetra;
+    
+    .tituloSobremi {
+        text-align: center;
+    }
+
+    .holaSobremi{
+        font-family: $brandFont;
+    }
+
+    .imgSobremi {
+        border: 2px dashed $colorSecundario;
+        transform: rotate(7deg);
+        transition: all 1s;
+
+        &:hover {
+            border: 4px dashed $colorSecundario;
+            transform: rotate(-7deg);
+        }
+    }
+    
+}
+
+
+
+
+
+
