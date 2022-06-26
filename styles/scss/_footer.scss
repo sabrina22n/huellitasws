@@ -1,10 +1,9 @@
 footer {
     padding: 8px;
-    background-color: #b8c0ff;
+    background-color: $colorSecundario;
     text-align: right;
 
     .linkFooter {
-        list-style: none;
         color: $colorLetra;
         font-size: 18px;
         font-family: $primaryFont;
@@ -12,7 +11,7 @@ footer {
         margin-right: 15px;
 
         .instagramLink > a {
-            color: #6C6968;
+            color: $colorLetra;
             text-decoration: none;
             font-family: $primaryFont;
         }

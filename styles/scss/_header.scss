@@ -1,14 +1,14 @@
 .navbar {
-    background-color: #f9e8ff;
+    background-color: $colorPrimario;
     font-family: $primaryFont;
     color: $colorLetra;
 
     .nav-item > a {
-        color: #6C6968;
+        color: $colorLetra;
     } 
 
     .brand {
-        font-family: 'Homemade Apple', cursive;
+        font-family: $brandFont;
         font-size: 18px;
         padding: 8px;
         margin-left: 5px;
