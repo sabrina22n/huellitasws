@@ -4,6 +4,7 @@
 
     .sectionHome {
         min-height: 65vh;
+        margin-top: 120px;
 
         .divHome {  
             padding: 15px;
@@ -33,6 +34,12 @@
 
         }
 
+    }
+
+    .tituloCarousel {
+        font-family: $secondaryFont;
+        color: $colorLetra;
+        text-align: center;
     }
     
 }

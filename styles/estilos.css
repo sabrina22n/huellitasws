@@ -33,6 +33,7 @@ body {
 }
 .bodyHome .sectionHome {
   min-height: 65vh;
+  margin-top: 120px;
 }
 .bodyHome .sectionHome .divHome {
   padding: 15px;
@@ -54,6 +55,11 @@ body {
 .bodyHome .sectionHome .imagenHome:hover {
   border: 4px dashed #b8c0ff;
   transform: rotate(-8deg);
+}
+.bodyHome .tituloCarousel {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #4a4a4a;
+  text-align: center;
 }
 
 footer {
@@ -143,8 +149,8 @@ footer .linkFooter .instagramLink > a {
 }
 .sectionBlog .entradaBlog .titulosBlog {
   margin: 15px;
-  text-decoration: underline;
   text-align: center;
+  font-family: "Homemade Apple", cursive;
 }
 
 .sectionContacto {
