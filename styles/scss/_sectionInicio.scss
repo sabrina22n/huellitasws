@@ -33,15 +33,35 @@
             }
 
         }
-
     }
 
-    .tituloCarousel {
-        font-family: $secondaryFont;
-        color: $colorLetra;
+        
+    .sectionHomedos {
+        padding: 100px;
         text-align: center;
+
+        @each $secciones, $color in $circulosInicio {
+            .secciones#{$secciones} {
+                background-color: $color;
+                }
+            } 
+        
+        .seccion {
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            /* background-color: red; */
+
+        }
+
+        .imagenHomedos {
+            padding: 70px;
+
+            @extend .imagenHome;
+        }
+
     }
-    
+
 }
 
 
