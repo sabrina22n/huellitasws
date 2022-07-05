@@ -9,4 +9,21 @@ $colorSobremi: #D6DAFF;
 $primaryFont: 'Montserrat', sans-serif;
 $secondaryFont: 'Montserrat Alternates', sans-serif;
 $brandFont: 'Homemade Apple', cursive;
-$circulosInicio: (servicios: #bf9fd4, sobremi: #ffd4ff, blog: #e7c6fd, contacto: #cd98f0);
+
+$circulosInicio: (servicios: #bf9fd4, sobremi: #ffd4ff, blog: #e7c6fd, contacto: #fdc2fd);
+
+%imagenes {
+    border: 2px dashed $colorSecundario;
+    transform: rotate(8deg);
+    transition: all 1s; 
+
+    &:hover {
+        border: 4px dashed $colorSecundario;
+        transform: rotate(-8deg);
+    }
+}
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}

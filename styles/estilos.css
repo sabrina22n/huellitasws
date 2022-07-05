@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+.sectionSobremi .imgSobremi, .bodyHome .sectionHomedos .imagenHomedos, .bodyHome .sectionHome .imagenHome {
+  border: 2px dashed #b8c0ff;
+  transform: rotate(8deg);
+  transition: all 1s;
+}
+.sectionSobremi .imgSobremi:hover, .bodyHome .sectionHomedos .imagenHomedos:hover, .bodyHome .sectionHome .imagenHome:hover {
+  border: 4px dashed #b8c0ff;
+  transform: rotate(-8deg);
+}
+
 * {
   margin: 0%;
   padding: 0;
@@ -16,29 +26,29 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #4a4a4a;
 }
-.navbar .nav-items {
+.navbar .nav-items .nav-item {
   -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
-.navbar .nav-items .nav-items:nth-child(1) {
+.navbar .nav-items .nav-item:nth-child(1) {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
-.navbar .nav-items .nav-items:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+.navbar .nav-items .nav-item:nth-child(2) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
-.navbar .nav-items .nav-items:nth-child(3) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+.navbar .nav-items .nav-item:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
-.navbar .nav-items .nav-items:nth-child(4) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+.navbar .nav-items .nav-item:nth-child(4) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
-.navbar .nav-items .nav-items:nth-child(5) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+.navbar .nav-items .nav-item:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 .navbar .nav-items .nav-item > a {
   color: #4a4a4a;
@@ -53,7 +63,7 @@ body {
 
 @-webkit-keyframes scale-up-hor-left {
   0% {
-    transform: scaleX(0.4);
+    transform: scaleX(0);
     transform-origin: 0 0;
   }
   100% {
@@ -63,7 +73,7 @@ body {
 }
 @keyframes scale-up-hor-left {
   0% {
-    transform: scaleX(0.4);
+    transform: scaleX(0);
     transform-origin: 0 0;
   }
   100% {
@@ -91,15 +101,6 @@ body {
 .bodyHome .sectionHome .divHome .parrafoHome {
   font-size: 18px;
 }
-.bodyHome .sectionHome .imagenHome, .bodyHome .sectionHome .sectionHomedos .imagenHomedos, .bodyHome .sectionHomedos .sectionHome .imagenHomedos {
-  border: 2px dashed #b8c0ff;
-  transform: rotate(8deg);
-  transition: all 1s;
-}
-.bodyHome .sectionHome .imagenHome:hover, .bodyHome .sectionHome .sectionHomedos .imagenHomedos:hover, .bodyHome .sectionHomedos .sectionHome .imagenHomedos:hover {
-  border: 4px dashed #b8c0ff;
-  transform: rotate(-8deg);
-}
 .bodyHome .sectionHomedos {
   padding: 100px;
   text-align: center;
@@ -114,16 +115,22 @@ body {
   background-color: #e7c6fd;
 }
 .bodyHome .sectionHomedos .seccionescontacto {
-  background-color: #cd98f0;
+  background-color: #fdc2fd;
 }
 .bodyHome .sectionHomedos .seccion {
-  border-radius: 50%;
   height: 150px;
   width: 150px;
-  /* background-color: red; */
+  border-radius: 50%;
+  color: #4a4a4a;
+  font-family: "Montserrat", sans-serif;
+}
+.bodyHome .sectionHomedos .seccionessobremi, .bodyHome .sectionHomedos .seccionescontacto {
+  height: 190px;
+  width: 190px;
 }
 .bodyHome .sectionHomedos .imagenHomedos {
-  padding: 70px;
+  margin-top: 150px;
+  padding: 0px;
 }
 
 footer {
@@ -186,16 +193,6 @@ footer .linkFooter .instagramLink > a {
 .sectionSobremi .holaSobremi {
   font-family: "Homemade Apple", cursive;
 }
-.sectionSobremi .imgSobremi {
-  border: 2px dashed #b8c0ff;
-  transform: rotate(7deg);
-  transition: all 1s;
-}
-.sectionSobremi .imgSobremi:hover {
-  border: 4px dashed #b8c0ff;
-  transform: rotate(-7deg);
-}
-
 .sectionBlog {
   background-color: #FBF6FF;
   font-family: "Montserrat", sans-serif;
