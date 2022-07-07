@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
-.sectionSobremi .imgSobremi, .bodyHome .sectionHomedos .imagenHomedos, .bodyHome .sectionHome .imagenHome {
-  border: 2px dashed #b8c0ff;
+@font-face {
+  font-family: "babydoll";
+  src: url("../../fonts/babydoll.ttf");
+}
+.sectionSobremi .imgSobremi, .bodyHome .sectionHome .imagenHome {
+  border: 2px dashed #bf9fd4;
   transform: rotate(8deg);
   transition: all 1s;
 }
-.sectionSobremi .imgSobremi:hover, .bodyHome .sectionHomedos .imagenHomedos:hover, .bodyHome .sectionHome .imagenHome:hover {
-  border: 4px dashed #b8c0ff;
+.sectionSobremi .imgSobremi:hover, .bodyHome .sectionHome .imagenHome:hover {
+  border: 4px dashed #bf9fd4;
   transform: rotate(-8deg);
 }
 
@@ -18,15 +21,16 @@
 }
 
 body {
-  background-color: #FBF6FF;
+  background-color: #f9eafc;
 }
 
 .navbar {
-  background-color: #f9e8ff;
-  font-family: "Montserrat", sans-serif;
-  color: #4a4a4a;
+  background-color: #ffd4ff;
+  font-family: "Poppins", sans-serif;
+  color: #6d6968;
 }
 .navbar .nav-items .nav-item {
+  font-size: 20px;
   -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
@@ -51,12 +55,12 @@ body {
           animation-delay: 1s;
 }
 .navbar .nav-items .nav-item > a {
-  color: #4a4a4a;
+  color: #6d6968;
 }
 .navbar .brand {
-  font-family: "Homemade Apple", cursive;
-  font-size: 18px;
-  padding: 8px;
+  font-family: "babydoll";
+  font-size: 28px;
+  padding: 5px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -82,24 +86,29 @@ body {
   }
 }
 .bodyHome {
-  background-image: url("../images/backgroundimage.jpeg");
-  background-size: 160px, contain;
+  /* background-image: url('../images/backgroundimage.jpeg');
+  background-size: 160px, contain; */
 }
 .bodyHome .sectionHome {
   min-height: 65vh;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .bodyHome .sectionHome .divHome {
-  padding: 15px;
-  color: #4a4a4a;
+  padding: 10px;
+  color: #6d6968;
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .bodyHome .sectionHome .divHome .peluqueria {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "babydoll";
+  -webkit-animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 .bodyHome .sectionHome .divHome .parrafoHome {
   font-size: 18px;
+}
+.bodyHome .sectionHome .imagenHome {
+  border-radius: 50%;
 }
 .bodyHome .sectionHomedos {
   padding: 100px;
@@ -121,54 +130,85 @@ body {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  color: #4a4a4a;
-  font-family: "Montserrat", sans-serif;
+  color: #6d6968;
+  font-family: "Poppins", sans-serif;
 }
 .bodyHome .sectionHomedos .seccionessobremi, .bodyHome .sectionHomedos .seccionescontacto {
   height: 190px;
   width: 190px;
 }
-.bodyHome .sectionHomedos .imagenHomedos {
+.bodyHome .imagenHomedos {
   margin-top: 150px;
   padding: 0px;
 }
 
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -1em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(1s);
+    opacity: 2;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -1em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(1s);
+    opacity: 2;
+  }
+}
 footer {
-  padding: 8px;
-  background-color: #b8c0ff;
-  text-align: right;
+  /* padding: 8px; */
+  background-color: #ffd4ff;
+  text-align: center;
 }
 footer .linkFooter {
-  color: #4a4a4a;
+  color: #6d6968;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   margin-right: 15px;
 }
 footer .linkFooter .instagramLink > a {
-  color: #4a4a4a;
+  color: #6d6968;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+footer .imgfooter {
+  border-radius: 50%;
 }
 
 .servicios {
-  background-color: #FBF6FF;
-  font-family: "Montserrat", sans-serif;
-  color: #4a4a4a;
+  background-color: #f9eafc;
+  color: #6d6968;
   margin-bottom: 50px;
 }
 .servicios .mainServicios {
   text-align: center;
   padding: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "babydoll";
   font-size: 30px;
-  background-color: #FBF6FF;
-  color: #4a4a4a;
+  background-color: #f9eafc;
+  color: #6d6968;
 }
 .servicios .servicio {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .servicios .servicio .servicio__img {
   width: 70px;
@@ -179,51 +219,57 @@ footer .linkFooter .instagramLink > a {
   margin-bottom: 6px;
   font-weight: bold;
   font-size: 18px;
+  font-family: "babydoll";
 }
 
 .sectionSobremi {
-  background-color: #D6DAFF;
+  background-color: #e7c6fd;
   padding: 60px;
-  font-family: "Montserrat", sans-serif;
-  color: #4a4a4a;
+  font-family: "Poppins", sans-serif;
+  color: #6d6968;
 }
 .sectionSobremi .tituloSobremi {
   text-align: center;
+  font-family: "babydoll";
 }
 .sectionSobremi .holaSobremi {
   font-family: "Homemade Apple", cursive;
 }
 .sectionBlog {
-  background-color: #FBF6FF;
-  font-family: "Montserrat", sans-serif;
+  background-color: #f9eafc;
+  font-family: "Poppins", sans-serif;
   padding: 20px;
-  color: #4a4a4a;
+  color: #6d6968;
 }
 .sectionBlog .blog {
   text-align: center;
   padding: 30px;
+  font-family: "babydoll";
 }
 .sectionBlog .entradaBlog {
-  background-image: linear-gradient(#e7c6ff, #e7c6ff, #b8c0ff);
+  background-image: linear-gradient(#ffd4ff, #f9eafc, #bf9fd4);
   padding: 20px;
   margin-top: 15px;
 }
 .sectionBlog .entradaBlog .titulosBlog {
   margin: 15px;
   text-align: center;
-  font-family: "Homemade Apple", cursive;
+  font-family: "babydoll";
 }
 
 .sectionContacto {
   padding: 30px;
   margin: 50px;
-  color: #4a4a4a;
-  font-family: "Montserrat", sans-serif;
-  border: 3px dotted #b8c0ff;
+  color: #6d6968;
+  font-family: "Poppins", sans-serif;
+  border: 3px dotted #bf9fd4;
+}
+.sectionContacto .tituloContacto {
+  font-family: "babydoll";
 }
 .sectionContacto .boton {
   padding: 7px;
-  background-color: #b8c0ff;
+  background-color: #bf9fd4;
 }
 
 @media screen and (max-width: 768px) {

@@ -9,23 +9,20 @@
     <title>Huellitas en mi corazón - Peluquería canina</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/estilos.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bodyHome">  
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
          <div> 
-          <a href="./index.html"><img src="./images/logoprovisorio.png" alt="logo lila" title="logo huellitas" height="50px" width="50px"/></a>
+          <a href="./index.html"><img src="./images/logo.png" alt="logo lila" title="logo huellitas" height="70px" /></a>
          </div>
-        <h5 class="brand mt-2 mb-2">Huellitas en mi corazón</h5>
+        <h5 class="brand mt-1 mb-1">Huellitas en mi corazón</h5>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse  nav-items" id="navbarSupportedContent">
-         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end pe-3">
+         <ul class="navbar-nav me-auto mb-1 mb-lg-0 w-100 justify-content-end pe-3">
           <li class="nav-item"><a class="nav-link active" href="./index.html" >Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="./pages/servicios.html" >Servicios</a></li>
           <li class="nav-item"><a class="nav-link" href="./pages/sobre-mi.html" >Sobre mí</a></li>
@@ -38,14 +35,45 @@
   </header>
   <section class="container sectionHome sectionGrid">
     <div class="row">
-       <div class="col-md-8 divHome d-flex flex-column justify-content-center">
-         <h2 class="animate__animated animate__flipInX peluqueria"> Peluquería canina </h2>
+       <div class="col-md-6 divHome d-flex flex-column justify-content-center">
+         <h1 class="peluqueria"> Peluquería canina </h1>
          <p class="parrafoHome">Conocé nuestros servicios y contactate con nosotros para recibir una atención personalizada.</p>
        </div>
-      <div class="col-md-4 d-flex justify-content-center">
-        <img class="imagenHome mw-100" src="./images/inicio1.jpeg" alt="perro en bañera" title="Bath time" width="300px" />
+      <div class="col-md-6 d-flex justify-content-center">
+        <img class="imagenHome mw-100" src="./images/inicio.png" alt="logo huellitas" title="logo huellitas" width="400px" />
       </div>
     </div>
+ </section>
+ <section class="container-fluid mt-5">
+   <div class="row col-md-4 offset-md-4">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/perrito1.JPG" class="d-block w-100" alt="perrito">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/perrito2.JPG" class="d-block w-100" alt="perrito">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/perrito3.JPG" class="d-block w-100" alt="perrito">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/perrito4.JPG" class="d-block w-100" alt="perrito">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/perrito5.JPG" class="d-block w-100" alt="perrito">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </div>
  </section>
  <section class="container sectionHomedos">
   <div class="row secciones w-100 d-flex justify-content-center gap-5">
@@ -62,18 +90,14 @@
       Contacto
     </div>
   </div>
-  <div class="row imagenHomedos">
-    <img src="./images/inicio2.JPG" alt="perritos" title="perritos">
-  </div>
  </section>
+ <div class="imagenHomedos w-100">
+  <img src="./images/banner2.jpg" class="img-fluid" alt="banner" title="banner huellitas">
+ </div>
  <footer>
-   <img src="./images/instagramFooter.png" alt="instagram" title="Instagram" width="35px" />
+   <img class="imgfooter" src="./images/insta.jpg" alt="instagram" title="Instagram" width="35px" />
    <a class="linkFooter" href="https://www.instagram.com" target="_blank">Seguinos en Instagram!</a>
  </footer>
-  <script src="js/wow.min.js"></script>
-  <script>
-     new WOW().init();
-  </script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

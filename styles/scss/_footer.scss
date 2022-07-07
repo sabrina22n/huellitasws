@@ -1,7 +1,8 @@
 footer {
-    padding: 8px;
-    background-color: $colorSecundario;
-    text-align: right;
+    /* padding: 8px; */
+    background-color: $colorPrimario;
+    text-align: center;
+    
 
     .linkFooter {
         color: $colorLetra;
@@ -16,6 +17,10 @@ footer {
             font-family: $primaryFont;
         }
 
+    }
+
+    .imgfooter {
+        border-radius: 50%;
     }
 
 }

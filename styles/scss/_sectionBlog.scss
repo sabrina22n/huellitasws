@@ -7,10 +7,11 @@
     .blog {
         text-align: center;
         padding: 30px;
+        font-family: $brandFont;
     }
 
     .entradaBlog {
-        background-image: linear-gradient(#e7c6ff, #e7c6ff, #b8c0ff);
+        background-image: linear-gradient($colorPrimario, $colorBackg, $colorSecundario);
         padding: 20px;
         margin-top: 15px;
 

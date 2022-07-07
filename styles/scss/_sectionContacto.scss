@@ -5,6 +5,10 @@
     font-family: $primaryFont;
     border: 3px dotted $colorSecundario;
 
+    .tituloContacto {
+        font-family: $brandFont;
+    }
+
     .boton {
         padding: 7px;
         background-color: $colorSecundario;

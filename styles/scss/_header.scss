@@ -6,6 +6,7 @@
     .nav-items {
 
         .nav-item {
+            font-size: 20px;
             -webkit-animation:scale-up-hor-left .4s cubic-bezier(.39,.575,.565,1.000) both;
             animation:scale-up-hor-left .4s cubic-bezier(.39,.575,.565,1.000) both;
 
@@ -23,8 +24,8 @@
 
     .brand {
         font-family: $brandFont;
-        font-size: 18px;
-        padding: 8px;
+        font-size: 28px;
+        padding: 5px;
         margin-left: 5px;
         margin-right: 5px;
     } 

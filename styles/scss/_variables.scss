@@ -1,14 +1,18 @@
+@font-face { 
+    font-family: "babydoll"; 
+    src: url("../../fonts/babydoll.ttf"); 
+} 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
-$colorBackg: #FBF6FF;
-$colorLetra: #4a4a4a;
-$colorPrimario: #f9e8ff;
-$colorSecundario: #b8c0ff;
-$colorSobremi: #D6DAFF;
-$primaryFont: 'Montserrat', sans-serif;
-$secondaryFont: 'Montserrat Alternates', sans-serif;
-$brandFont: 'Homemade Apple', cursive;
+
+$colorBackg: #f9eafc;
+$colorLetra: #6d6968;
+$colorPrimario: #ffd4ff;
+$colorSecundario: #bf9fd4;
+$colorSobremi: #e7c6fd;
+$primaryFont: 'Poppins', sans-serif;
+$secondaryFont: 'Homemade Apple', cursive;
+$brandFont: 'babydoll';
 
 $circulosInicio: (servicios: #bf9fd4, sobremi: #ffd4ff, blog: #e7c6fd, contacto: #fdc2fd);
 
