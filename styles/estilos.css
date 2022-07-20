@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
 @font-face {
   font-family: "babydoll";
-  src: url("../../fonts/babydoll.ttf");
+  src: url("../fonts/babydoll.ttf");
 }
 .sectionBlog .entradaBlog .imagenBlog, .sectionSobremi .imgSobremi, .bodyHome .sectionHome .imagenHome {
   border: 2px dashed #bf9fd4;
@@ -89,7 +89,7 @@ body {
   }
 }
 .bodyHome {
-  background-image: url("../../images/imagenFondo.jpg");
+  background-image: url("../images/imagenFondo.jpg");
   background-size: contain;
 }
 .bodyHome .sectionHome {
