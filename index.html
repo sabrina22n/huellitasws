@@ -37,66 +37,93 @@
     <div class="row">
        <div class="col-md-6 divHome d-flex flex-column justify-content-center">
          <h1 class="peluqueria"> Peluquería canina </h1>
-         <p class="parrafoHome">Conocé nuestros servicios y contactate con nosotros para recibir una atención personalizada.</p>
+         <p class="parrafoHome">Nos especializamos en el cuidado y la higiene de tu mascota. Conocé nuestros servicios y contactate con nosotros para recibir una atención personalizada.
+          <br> Esperamos que tu peludo sea parte del #TeamHuellitas! </p>
        </div>
       <div class="col-md-6 d-flex justify-content-center">
         <img class="imagenHome mw-100" src="./images/inicio.png" alt="logo huellitas" title="logo huellitas" width="400px" />
       </div>
     </div>
  </section>
- <section class="container-fluid mt-5">
-   <div class="row col-md-4 offset-md-4">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./images/perrito1.JPG" class="d-block w-100" alt="perrito">
+ <section class="container mt-5 sectionCarousel">
+   <div class="row">  
+     <h4 class="d-flex justify-content-center mb-4 tituloCarousel" >Conocé a nuestros amigos del #TeamHuellitas!</h4>
+   </div>
+   <div class="row">
+     <div class="col-md-4 huellitas">
+       <img src="./images/huellitas.png" alt="huellitas" width="300px" >
+     </div>
+     <div class="col-md-4">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/perrito1.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito2.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito3.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito4.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito5.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito6.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito7.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito8.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/perrito9.JPG" class="d-block w-100" alt="perrito"/>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="./images/perrito2.JPG" class="d-block w-100" alt="perrito">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/perrito3.JPG" class="d-block w-100" alt="perrito">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/perrito4.JPG" class="d-block w-100" alt="perrito">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/perrito5.JPG" class="d-block w-100" alt="perrito">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+     </div>
+     <div class="col-md-4 huellitas">
+       <img src="./images/huellitas.png" alt="huellitas" width="300px" >
+     </div>
    </div>
  </section>
  <section class="container sectionHomedos">
+  <div class="row">
+    <h4 class="d-flex justify-content-center tituloSecciones">Navegá nuestro sitio!</h4>
+  </div>
   <div class="row secciones w-100 d-flex justify-content-center gap-5">
     <div class="col-md-3 seccion d-flex justify-content-center align-items-center seccionesservicios">
-      Servicios
+      <a href="./pages/servicios.html"> <img src="./images/iconoServicios.png" alt="servicios" title="Servicios" height="150px"/> </a>
     </div>
     <div class="col-md-3 seccion d-flex justify-content-center align-items-center seccionessobremi">
-      Sobre mi
+      <a href="./pages/sobre-mi.html"> <img src="./images/iconoSobremi.png" alt="Sobre mi" title="Sobre mi" height="150px"/> </a>
     </div>
     <div class="col-md-3 seccion d-flex justify-content-center align-items-center seccionesblog">
-      Blog
+      <a href="./pages/blog.html"> <img src="./images/iconoBlog.png" alt="Blog" title="Blog" height="150px"/> </a>
     </div>
     <div class="col-md-3 seccion d-flex justify-content-center align-items-center seccionescontacto">
-      Contacto
+      <a href="./pages/contacto.html"> <img src="./images/iconoContacto.png" alt="Contacto" title="Contacto" height="150px"/> </a>
     </div>
   </div>
  </section>
- <div class="imagenHomedos w-100">
-  <img src="./images/banner2.jpg" class="img-fluid" alt="banner" title="banner huellitas">
- </div>
  <footer>
-   <img class="imgfooter" src="./images/insta.jpg" alt="instagram" title="Instagram" width="35px" />
-   <a class="linkFooter" href="https://www.instagram.com" target="_blank">Seguinos en Instagram!</a>
+   <img src="./images/banner1.jpg" class="img-fluid" alt="banner" title="banner huellitas">
+   <div class="textoFooter">
+     <img class="instaFooter" src="./images/insta.jpg" alt="instagram" title="Instagram" width="35px" />
+     <a class="linkFooter" href="https://www.instagram.com" target="_blank">Seguinos en Instagram!</a>
+   </div>
  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

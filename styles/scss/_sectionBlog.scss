@@ -14,6 +14,11 @@
         background-image: linear-gradient($colorPrimario, $colorBackg, $colorSecundario);
         padding: 20px;
         margin-top: 15px;
+        border-radius: 4px;
+
+        .imagenBlog {
+            @extend %imagenes;
+        }
 
         .titulosBlog {
             margin: 15px;

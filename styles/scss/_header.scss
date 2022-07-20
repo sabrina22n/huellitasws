@@ -10,11 +10,16 @@
             -webkit-animation:scale-up-hor-left .4s cubic-bezier(.39,.575,.565,1.000) both;
             animation:scale-up-hor-left .4s cubic-bezier(.39,.575,.565,1.000) both;
 
+            &:hover {
+                font-size: 22px;
+            }
+
             @for $animation from 1 through 5 {
                 &:nth-child(#{$animation}) {
                     animation-delay: 0.2s * $animation;
                 }
             }
+
         }
 
         .nav-item > a {

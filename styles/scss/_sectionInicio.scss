@@ -1,6 +1,6 @@
 .bodyHome {
-    /* background-image: url('../images/backgroundimage.jpeg');
-    background-size: 160px, contain; */
+    background-image: url('../../images/imagenFondo.jpg');
+    background-size: contain;
 
     .sectionHome {
         min-height: 65vh;
@@ -27,31 +27,62 @@
         .imagenHome {
             @extend %imagenes;
             border-radius: 50%;
-
         }
     }
 
-        
+    .sectionCarousel {
+
+      .tituloCarousel {
+        font-family: $brandFont;
+        color: $colorLetra;
+      }
+
+      .huellitas {
+        animation: swirl-in-fwd 5s ease-out both;
+        animation-iteration-count: infinite;
+        }
+
+      }
+
+      @keyframes swirl-in-fwd {
+        0% {
+          transform: rotate(-540deg) scale(0);
+          opacity: 0;
+        }
+        100% {
+          transform: rotate(0) scale(1);
+          opacity: 1;
+        }
+      }
+    
+
     .sectionHomedos {
         padding: 100px;
         text-align: center;
 
-        @each $secciones, $color in $circulosInicio {
-            .secciones#{$secciones} {
-                background-color: $color;
-                }
-            } 
-        
+        .tituloSecciones {
+          font-family: $brandFont;
+          color: $colorLetra;
+          margin-bottom: 60px;
+          font-size: 30px;
+        }
+
         .seccion {
             @include sizes (150px, 150px);
+            border: 3px dashed $colorSecundario;
             border-radius: 50%;
             color: $colorLetra;
             font-family: $primaryFont;
+            transition: all .8s;
+
+            &:hover{
+              animation: slide-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            }
 
         }
 
         .seccionessobremi, .seccionescontacto {
-            @include sizes (190px, 190px);
+            @include sizes (160px, 160px);
         }
 
 
@@ -98,6 +129,17 @@
       opacity: 2;
     }
   }
+
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-60px);
+  }
+}
+
   
   
 

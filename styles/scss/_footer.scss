@@ -1,29 +1,39 @@
-footer {
-    /* padding: 8px; */
+footer {    
     background-color: $colorPrimario;
     text-align: center;
+    position: relative;
     
 
     .linkFooter {
-        color: $colorLetra;
+        color: $colorPrimario;
         font-size: 18px;
         font-family: $primaryFont;
         text-decoration: none;
         margin-right: 15px;
 
         .instagramLink > a {
-            color: $colorLetra;
+            color: $colorPrimario;
             text-decoration: none;
             font-family: $primaryFont;
         }
 
     }
 
-    .imgfooter {
+    .instaFooter {
         border-radius: 50%;
     }
 
 }
+
+.textoFooter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+    
 
 
 
