@@ -220,7 +220,6 @@ body {
   }
 }
 footer {
-  background-color: #ffd4ff;
   text-align: center;
   position: relative;
 }
@@ -229,7 +228,6 @@ footer .linkFooter {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  margin-right: 15px;
 }
 footer .linkFooter .instagramLink > a {
   color: #ffd4ff;
@@ -239,8 +237,7 @@ footer .linkFooter .instagramLink > a {
 footer .instaFooter {
   border-radius: 50%;
 }
-
-.textoFooter {
+footer .textoFooter {
   position: absolute;
   top: 50%;
   left: 50%;
