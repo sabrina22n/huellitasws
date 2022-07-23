@@ -37,18 +37,18 @@
     <h4 class="text-center tituloContacto">Contactame!</h4>
     <div class="row">
      <div class="col-md-6">
-      <form>
+      <form method="post" action="../form/1.php">
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" name="nombre">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" name="correo">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"></textarea>
         </div>
         <button class="btn btn-secondary boton" type="submit" class="btn btn-primary">Enviar</button>
       </form>
