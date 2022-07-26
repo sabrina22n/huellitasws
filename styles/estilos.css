@@ -323,10 +323,9 @@ footer .textoFooter {
 
 .sectionContacto {
   padding: 30px;
-  margin: 50px;
   color: #6d6968;
   font-family: "Poppins", sans-serif;
-  border: 3px dotted #bf9fd4;
+  border: 3px dashed #bf9fd4;
 }
 .sectionContacto .tituloContacto {
   font-family: "babydoll";
